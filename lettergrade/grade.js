@@ -30,7 +30,7 @@ function onclick () {
     }else if (score >= 0) {
         letter = "F ";
     }
-   document.getElementById ("letter").innerHTML = "" ;
+   document.getElementById ("letter").innerHTML = "Your grade is " + letter;
 }
 
 
