@@ -10,12 +10,12 @@ function onclick (){
 if (b > a )
    a = b;
 if (c > a )
-    a = c
+    a = c;
 
 
  
     //display largest one
-document.getElementById("result").innetHTML = "The maximum is " + max + ".";
+document.getElementById("result").innerHTML = "The maximum is " + a + ".";
 
 }
     
